@@ -366,7 +366,10 @@
     width: 1140px;
     height: 313px;
     border-radius: 16px;
+    background-blend-mode: multiply;
+    background-color: rgba(4, 4, 5, 0.378);
     background-image: url('../assets/handshake.jpg');
+    background-position: center;
     margin: 0 auto;
     margin-top: 49px;
     display: flex;
@@ -418,4 +421,11 @@
     width: 120px;
     height: 57px;
     margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
