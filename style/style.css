@@ -249,7 +249,7 @@
 
 .Current-Target-section {
     width: 1140px;
-    height: 460px;
+    height: fit-content;
     margin: 0 auto;
     margin-top: 151px;
 }
@@ -263,18 +263,21 @@
 }
 
 .cart1 {
+    width: 33%;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
 }
 
 .cart2 {
+    width: 33%;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
     padding: 40px;
 }
 
 .cart3 {
+    width: 33%;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
@@ -432,6 +435,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 /* Footer style */
