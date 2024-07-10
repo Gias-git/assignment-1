@@ -337,6 +337,7 @@
     align-items: center;
     padding: 40px;
     margin-bottom: 24px;
+
 }
 
 .next-target-cart-info h2 {
@@ -362,6 +363,7 @@
 
 }
 
+
 .need-support-section {
     width: 1140px;
     height: 313px;
@@ -377,6 +379,7 @@
     align-items: center;
     text-align: center;
     padding: 64px 48px 64px 48px;
+    margin-bottom: 80px;
 }
 
 .need-support-section h1 {
@@ -428,4 +431,28 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* Footer style */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer>div h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer>div>a img{
+    margin-right: 24px;
 }
