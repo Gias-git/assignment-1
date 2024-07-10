@@ -134,6 +134,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -144,7 +145,7 @@
 .why-webDevelopment-section {
     margin: 74px auto;
     width: 946px;
-    height: 1233px;
+    height: fit-content;
     padding: 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
